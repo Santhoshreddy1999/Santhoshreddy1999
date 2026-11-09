@@ -7,8 +7,8 @@
 
 No existing public application repository has an automated test suite. No claim of application correctness, coverage, successful CI, or deployability is currently supportable.
 
-The portfolio reports and Project 01 are published. Project 01 has a locally
-verified MVP test/build/container path; its first GitHub Actions run is pending.
+The portfolio reports and Project 01 are published. Project 01's local and
+GitHub Actions test/build/container paths pass.
 
 ## Existing repository quality evidence
 
@@ -150,11 +150,13 @@ Verified on 2026-11-09:
 - Direct and Nginx-proxied end-to-end smoke journeys: pass.
 - Cross-user document isolation: pass.
 - Container restart persistence: pass.
+- GitHub Actions release-commit pipeline: pass.
+- CI secret scan: pass.
+- Protected-branch required checks: configured.
 
 Unverified:
 
-- GitHub Actions execution.
-- CI secret scan and dependency review.
+- Pull-request dependency review on a maintained feature PR.
 - Live OpenAI/Anthropic requests.
 - Browser automation, load tests, cloud deployment, and backup restoration.
 

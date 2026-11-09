@@ -18,7 +18,7 @@
 
 | # | Project | Planned start | Actual start | Target completion | Actual completion | Status | Complete | Technologies | Tests | Deployment | Pending next |
 |---:|---|---|---|---|---|---|---:|---|---|---|---|
-| 01 | Enterprise AI Knowledge Assistant | 2026-11-09 | 2026-11-09 | 2026-11-22 |  | MVP verified | 70% | FastAPI, React, PostgreSQL, pgvector | 22 backend and 9 frontend tests pass; backend coverage 87% | Local Compose verified; source published | Complete first GitHub Actions run, browser/security scans, and release |
+| 01 | Enterprise AI Knowledge Assistant | 2026-11-09 | 2026-11-09 | 2026-11-22 |  | MVP verified | 85% | FastAPI, React, PostgreSQL, pgvector | 31 tests and full GitHub Actions pipeline pass; backend coverage 87% | Local Compose verified; v0.1.0 released | Add browser automation, independent security review, rate limits, and optional cloud deployment |
 | 02 | Multi-Agent AI Orchestration Platform | 2026-12-07 |  | 2026-12-20 |  | Planned | 0% | Python, LangGraph, FastAPI, React, Redis | Not created | Not deployed | Begin after Project 01 provider and telemetry boundaries stabilize |
 | 03 | MCP Server & AI Tool Ecosystem | 2026-12-21 |  | 2027-01-03 |  | Planned | 0% | Python, TypeScript, MCP, Node.js | Not created | Not deployed | Define safe tools and client compatibility targets |
 | 04 | AI-Powered Developer Copilot | 2027-01-04 |  | 2027-01-17 |  | Planned | 0% | Python, FastAPI, React, GitHub API | Not created | Not deployed | Define GitHub App permissions and untrusted-code boundary |
@@ -86,3 +86,6 @@ Verified locally on 2026-11-09:
 - Direct API and Nginx-proxied end-to-end smoke paths passed.
 - Registration, upload, hybrid retrieval, citations, history, evaluation, and cross-user isolation passed.
 - Two persisted documents remained after a full container down/up cycle without volume deletion.
+- GitHub Actions run `42590199024` passed on the release commit.
+- Six CI jobs are required on protected `main`.
+- Release `v0.1.0` is published with factual notes.

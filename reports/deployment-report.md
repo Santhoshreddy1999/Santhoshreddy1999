@@ -69,6 +69,9 @@ On 2026-11-09:
   evaluation, and cross-user isolation passed.
 - Two document records survived a complete container down/up cycle while the
   named volume was retained.
+- GitHub Actions independently built both images and passed the
+  PostgreSQL/pgvector end-to-end smoke job on the release commit.
+- `v0.1.0` is tagged and released. Images are not published to a registry.
 
 This is a local development deployment, not a public or cloud deployment.
 

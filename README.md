@@ -6,7 +6,7 @@ This portfolio is being rebuilt in public with a strict rule: planned work is la
 
 ## Current focus
 
-### Enterprise AI Knowledge Assistant — MVP verified locally
+### Enterprise AI Knowledge Assistant — v0.1.0 MVP released
 
 [Enterprise RAG Assistant](https://github.com/Santhoshreddy1999/enterprise-rag-assistant)
 is a secure, multi-user RAG application built with FastAPI, React,
@@ -16,7 +16,10 @@ tests, evaluation, and containerized local delivery.
 Verified: 22 backend tests at 87% coverage, 9 frontend tests, production builds,
 PostgreSQL/pgvector migration, healthy containers, direct and Nginx-proxied
 end-to-end retrieval/citation flows, ownership isolation, and restart
-persistence. Source is published; the first GitHub Actions run is in progress.
+persistence. The full GitHub Actions pipeline passes, `main` is protected by
+six required checks, and
+[v0.1.0](https://github.com/Santhoshreddy1999/enterprise-rag-assistant/releases/tag/v0.1.0)
+is published with verified release notes.
 
 ### Engineering Architecture Vault — existing, hardening planned
 

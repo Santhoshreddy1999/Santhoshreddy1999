@@ -33,6 +33,10 @@
   published the portfolio reports and profile README.
 - Created and published `enterprise-rag-assistant` with professional metadata
   and topics.
+- Passed the complete release-commit GitHub Actions pipeline.
+- Protected `main` with six required checks, linear history, conversation
+  resolution, and force-push/deletion prevention.
+- Published `v0.1.0` with verified release notes.
 
 ## Verified findings
 
@@ -51,15 +55,14 @@
 
 ## In progress
 
-- Executing Project 01's first GitHub Actions workflow.
-- Independent post-commit security review and first release.
+- Browser automation, independent post-commit security review, and optional
+  cloud deployment for Project 01.
 
 ## Next planned work
 
-1. Complete and verify Project 01's GitHub Actions workflow.
-2. Add browser automation and complete the first tagged release.
-3. Harden the existing engineering knowledge vault.
-4. Begin shared AI observability foundations after Project 01 telemetry is
+1. Add browser automation and an independent post-commit security review.
+2. Harden the existing engineering knowledge vault.
+3. Begin shared AI observability foundations after Project 01 telemetry is
    published.
 
 ## Risks and blockers

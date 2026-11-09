@@ -5,7 +5,9 @@
 
 ## Why this document is not final
 
-The required portfolio has not been implemented, tested, deployed, or released. Marking it complete would contradict the repository evidence and the quality gates.
+One project is implemented, tested, containerized, and released, but the
+required 15-project portfolio is not complete. Marking the overall mission
+complete would contradict the implementation tracker.
 
 This file exists from the beginning so the final review criteria are explicit. It will become the final assessment only after the implementation tracker and project evidence support that conclusion.
 
@@ -16,28 +18,30 @@ The public account currently demonstrates:
 - Broad engineering study material.
 - Java, Spring, distributed-system, DSA, and frontend knowledge documentation.
 - A useful interactive database isolation-level explainer.
+- A tagged AI full-stack RAG MVP with protected-branch CI, PostgreSQL/pgvector,
+  secure cookie authentication, ownership isolation, citations, evaluation,
+  React, containers, health/metrics/logging, and release notes.
 
 It does not yet demonstrate:
 
-- A tagged AI full-stack release with verified remote CI. Project 01 is public
-  and locally MVP-verified; its first remote CI run is pending.
 - A tested Java/Spring service.
-- Database-backed business workflows.
 - Agentic or MCP systems.
 - Event-driven microservices.
-- CI/CD quality gates.
-- Containerized or Kubernetes deployment.
+- Kubernetes deployment.
 - Cloud infrastructure.
 - Production observability.
 
 ## Current portfolio maturity
 
 - Professional positioning: early transformation.
-- Code depth: insufficient.
-- Architecture communication: target architecture documented; implementation evidence pending.
-- Testing: Project 01 has substantive local evidence; legacy repositories remain insufficient.
-- Security: known issues documented; remediation pending.
-- Deployment: Project 01 is locally verified with Compose; no remote deployment.
+- Code depth: substantive for Project 01; insufficient across the broader program.
+- Architecture communication: Project 01 and the portfolio target architecture
+  are documented with implementation evidence.
+- Testing: Project 01 passes local and remote gates; legacy repositories remain insufficient.
+- Security: Project 01 has verified baseline controls and explicit open risks;
+  legacy repository issues remain.
+- Deployment: Project 01 is locally verified with Compose and CI smoke testing;
+  no remote runtime deployment.
 - Operational maturity: health, metrics, structured logs, migrations, and
   persistence are demonstrated locally in Project 01; cloud operations are not.
 - Recruiter trust: improved by factual reporting, but strong featured implementations are still required.

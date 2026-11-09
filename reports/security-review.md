@@ -216,6 +216,9 @@ Verified on 2026-11-09:
 - Structured request logs without document or credential payloads.
 - PostgreSQL not published to the host.
 - Non-root backend and frontend application images.
+- CI secret scan passed on the release commit.
+- Protected `main` requires six build, test, image, and integration checks and
+  disallows force pushes and deletion.
 
 The specialized security-review subagent could not compute a diff because the
 new repository had no initial commit and all source was untracked. The threat

@@ -55,13 +55,17 @@
 | Technology matrix | 2026-11-09 | 2026-11-09 | Complete | `technology-matrix.md` |
 | Repository standards and templates | 2026-11-09 | 2026-11-09 | Complete | `standards/`, issue forms, pull-request template, contribution and security policies |
 | GitHub profile README | 2026-11-09 | 2026-11-09 | Complete locally | `README.md`; remote publication pending |
-| Authenticated GitHub update | 2026-11-09 |  | Blocked | Stored credential lacks GitHub CLI `read:org`; normal Git push remains to be tested |
+| Authenticated GitHub update | 2026-11-09 |  | Blocked | Stored credential belongs to a different account; target-account browser login required |
 
 ## Blockers
 
 ### GitHub CLI authentication
 
-The existing credential is accepted by GitHub but lacks the `read:org` scope required for GitHub CLI login. No scope was broadened automatically. Public audit work and local implementation can proceed. Remote metadata changes and new repository creation require a compliant authenticated session.
+The existing Windows credential authenticates a different corporate GitHub
+account. No remote write was attempted after the mismatch was detected, and no
+non-interactive `Santhoshreddy1999` credential is stored. Repository creation,
+profile-repository rename, pushes, metadata updates, and CI require the target
+account to complete GitHub CLI browser authentication.
 
 ### External AI providers
 

@@ -6,7 +6,8 @@
 ## Completed
 
 - Installed the official GitHub CLI release and verified its SHA-256 checksum.
-- Verified that the existing Git credential is recognized but lacks the `read:org` scope required by GitHub CLI login.
+- Verified that the existing Git credential belongs to a different corporate
+  GitHub account and stopped before any remote write.
 - Cloned all five public repositories.
 - Inspected repository metadata, source, documentation, tests, deployment files, and Git history.
 - Completed the initial portfolio audit.
@@ -30,7 +31,7 @@
 ## Verified findings
 
 - Public repositories audited: 5.
-- Total commits across current public repositories: 4.
+- Total commits across current public repositories: 5.
 - Empty repositories: 1.
 - Near-empty placeholder repositories: 2.
 - Historical binary coursework repositories: 1.
@@ -60,7 +61,8 @@
 
 ## Risks and blockers
 
-- GitHub CLI persistent authentication is blocked by missing `read:org`; no scope was changed automatically.
+- Remote publication is blocked until `Santhoshreddy1999` completes GitHub
+  browser authentication; no target-account credential is stored.
 - Existing `ai-project` history contains personal data; cleanup requires a deliberate destructive-history decision.
 - The knowledge vault has an unremediated XSS path and should not yet be promoted as secure.
 - Completing and validating 15 production-oriented systems in one day is not credible. The roadmap prioritizes one verified vertical slice over fabricated completion.

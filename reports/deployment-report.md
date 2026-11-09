@@ -152,7 +152,8 @@ Release:
 
 ## Current blockers
 
-- GitHub CLI cannot establish a persistent authenticated session because the existing stored credential lacks its required `read:org` scope.
+- The stored GitHub credential belongs to a different account; target-account
+  browser authentication is required before repository or image publication.
 - No container registry or cloud credential has been configured.
 - Project 01 images are locally verified but not published to a registry.
 - Terraform is not installed on the current command path.

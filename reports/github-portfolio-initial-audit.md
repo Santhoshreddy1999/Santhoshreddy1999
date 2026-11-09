@@ -34,7 +34,9 @@ The audit used:
 Authentication note:
 
 - GitHub CLI was installed from the official release and its SHA-256 checksum was verified.
-- The existing Windows credential is valid but does not include GitHub CLI's required `read:org` scope.
+- The existing Windows credential authenticates a different corporate GitHub
+  account, not `Santhoshreddy1999`. No non-interactive credential for the
+  target account is stored.
 - No credential was printed, written into the workspace, or committed.
 - The audit therefore covers all five public repositories. Private repositories, organization resources, protected-branch settings, repository secrets, and account-level security settings were not accessible and are not assessed.
 
@@ -242,7 +244,7 @@ Otherwise archive it. Do not leave the current “full-stack” claim unchanged.
 - No repository has a license.
 - Repository descriptions, topics, naming, default branches, and status labels are incomplete or misleading.
 - There is no profile README, featured-project narrative, demo, release, or architecture decision record.
-- Contribution history is extremely sparse: five repositories contain four commits in total, excluding the empty repository.
+- Contribution history is extremely sparse: five repositories contain five commits in total, excluding the empty repository.
 
 ## Missing engineering evidence
 

@@ -1,0 +1,51 @@
+name: Engineering capability
+description: Propose a bounded feature or technical capability
+title: "feat: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Describe the user and problem, not only the desired technology.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Verifiable outcome
+      description: What behavior will demonstrate completion?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope and exclusions
+      description: State what is included and intentionally excluded.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Use testable criteria.
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Security, privacy, data, and operational risks
+      description: Include AI/tool risks where applicable.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Required verification
+      description: List tests, builds, smoke checks, and documentation evidence.
+    validations:
+      required: true

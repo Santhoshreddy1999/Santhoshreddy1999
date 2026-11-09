@@ -7,8 +7,8 @@
 
 No existing public application repository has an automated test suite. No claim of application correctness, coverage, successful CI, or deployability is currently supportable.
 
-The portfolio reports and Project 01 remain unpublished. Project 01 now has a
-locally verified MVP test/build/container path.
+The portfolio reports and Project 01 are published. Project 01 has a locally
+verified MVP test/build/container path; its first GitHub Actions run is pending.
 
 ## Existing repository quality evidence
 

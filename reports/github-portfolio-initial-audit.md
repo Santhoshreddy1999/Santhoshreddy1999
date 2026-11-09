@@ -36,9 +36,12 @@ Authentication note:
 - GitHub CLI was installed from the official release and its SHA-256 checksum was verified.
 - The existing Windows credential authenticates a different corporate GitHub
   account, not `Santhoshreddy1999`. No non-interactive credential for the
-  target account is stored.
+  target account was stored at audit time.
 - No credential was printed, written into the workspace, or committed.
 - The audit therefore covers all five public repositories. Private repositories, organization resources, protected-branch settings, repository secrets, and account-level security settings were not accessible and are not assessed.
+- The target account completed secure browser authentication after the audit so
+  the approved portfolio updates could be published; this did not expand the
+  initial audit scope.
 
 No repository was deleted, renamed, made private/public, or otherwise modified during the audit.
 

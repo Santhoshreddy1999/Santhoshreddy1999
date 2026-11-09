@@ -16,8 +16,7 @@ tests, evaluation, and containerized local delivery.
 Verified: 22 backend tests at 87% coverage, 9 frontend tests, production builds,
 PostgreSQL/pgvector migration, healthy containers, direct and Nginx-proxied
 end-to-end retrieval/citation flows, ownership isolation, and restart
-persistence. Repository publication and GitHub Actions execution are in
-progress.
+persistence. Source is published; the first GitHub Actions run is in progress.
 
 ### Engineering Architecture Vault — existing, hardening planned
 

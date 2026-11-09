@@ -5,10 +5,10 @@
 
 ## Executive result
 
-No existing public repository contains a verified deployment configuration,
-deployment record, container image, release, or live application URL. The new
-Project 01 repository has a locally verified Docker Compose deployment but has
-not yet been published or remotely deployed.
+No pre-transformation repository contains a verified deployment configuration,
+deployment record, container image, release, or live application URL. Project
+01 is now public and has a locally verified Docker Compose deployment, but it
+has not been remotely deployed.
 
 Docker, Docker Compose, and `kubectl` are available in the local environment. Terraform is not currently available on the command path. Tool availability alone is not deployment evidence.
 
@@ -152,10 +152,9 @@ Release:
 
 ## Current blockers
 
-- The stored GitHub credential belongs to a different account; target-account
-  browser authentication is required before repository or image publication.
 - No container registry or cloud credential has been configured.
-- Project 01 images are locally verified but not published to a registry.
+- Project 01 source is published; its images are locally verified but not
+  published to a registry.
 - Terraform is not installed on the current command path.
 
 These are recorded blockers, not failed deployment claims.

@@ -19,8 +19,8 @@ The public account currently demonstrates:
 
 It does not yet demonstrate:
 
-- A publicly reviewable AI full-stack release. Project 01 is locally
-  MVP-verified but not yet published.
+- A tagged AI full-stack release with verified remote CI. Project 01 is public
+  and locally MVP-verified; its first remote CI run is pending.
 - A tested Java/Spring service.
 - Database-backed business workflows.
 - Agentic or MCP systems.

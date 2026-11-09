@@ -18,7 +18,7 @@
 
 | # | Project | Planned start | Actual start | Target completion | Actual completion | Status | Complete | Technologies | Tests | Deployment | Pending next |
 |---:|---|---|---|---|---|---|---:|---|---|---|---|
-| 01 | Enterprise AI Knowledge Assistant | 2026-11-09 | 2026-11-09 | 2026-11-22 |  | MVP verified | 70% | FastAPI, React, PostgreSQL, pgvector | 22 backend and 9 frontend tests pass; backend coverage 87% | Local Compose verified | Publish repository, run GitHub Actions, complete browser/security scans, add release |
+| 01 | Enterprise AI Knowledge Assistant | 2026-11-09 | 2026-11-09 | 2026-11-22 |  | MVP verified | 70% | FastAPI, React, PostgreSQL, pgvector | 22 backend and 9 frontend tests pass; backend coverage 87% | Local Compose verified; source published | Complete first GitHub Actions run, browser/security scans, and release |
 | 02 | Multi-Agent AI Orchestration Platform | 2026-12-07 |  | 2026-12-20 |  | Planned | 0% | Python, LangGraph, FastAPI, React, Redis | Not created | Not deployed | Begin after Project 01 provider and telemetry boundaries stabilize |
 | 03 | MCP Server & AI Tool Ecosystem | 2026-12-21 |  | 2027-01-03 |  | Planned | 0% | Python, TypeScript, MCP, Node.js | Not created | Not deployed | Define safe tools and client compatibility targets |
 | 04 | AI-Powered Developer Copilot | 2027-01-04 |  | 2027-01-17 |  | Planned | 0% | Python, FastAPI, React, GitHub API | Not created | Not deployed | Define GitHub App permissions and untrusted-code boundary |
@@ -54,18 +54,17 @@
 | Architecture overview | 2026-11-09 | 2026-11-09 | Complete | `architecture-overview.md` |
 | Technology matrix | 2026-11-09 | 2026-11-09 | Complete | `technology-matrix.md` |
 | Repository standards and templates | 2026-11-09 | 2026-11-09 | Complete | `standards/`, issue forms, pull-request template, contribution and security policies |
-| GitHub profile README | 2026-11-09 | 2026-11-09 | Complete locally | `README.md`; remote publication pending |
-| Authenticated GitHub update | 2026-11-09 |  | Blocked | Stored credential belongs to a different account; target-account browser login required |
+| GitHub profile README | 2026-11-09 | 2026-11-09 | Complete and published | `README.md` in `Santhoshreddy1999/Santhoshreddy1999` |
+| Authenticated GitHub update | 2026-11-09 | 2026-11-09 | Complete | Target account authenticated; profile and Project 01 repositories published |
 
-## Blockers
+## Resolved blocker
 
-### GitHub CLI authentication
-
-The existing Windows credential authenticates a different corporate GitHub
-account. No remote write was attempted after the mismatch was detected, and no
-non-interactive `Santhoshreddy1999` credential is stored. Repository creation,
-profile-repository rename, pushes, metadata updates, and CI require the target
-account to complete GitHub CLI browser authentication.
+The pre-existing Windows credential authenticated a different corporate GitHub
+account, so remote writes were stopped. On 2026-11-09, the target
+`Santhoshreddy1999` account completed GitHub CLI browser authentication. The
+empty `MY_Skills` repository was renamed to the profile repository and pushed,
+and `enterprise-rag-assistant` was created and pushed. No credential was placed
+in source or documentation.
 
 ### External AI providers
 

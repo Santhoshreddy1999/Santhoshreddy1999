@@ -21,6 +21,9 @@ The public account currently demonstrates:
 - A tagged AI full-stack RAG MVP with protected-branch CI, PostgreSQL/pgvector,
   secure cookie authentication, ownership isolation, citations, evaluation,
   React, containers, health/metrics/logging, and release notes.
+- A deployed, responsive GitHub Pages portfolio with CI, professional history,
+  verified credential evidence, privacy-sanitized resume, and explicit
+  released-versus-planned status.
 
 It does not yet demonstrate:
 

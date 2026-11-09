@@ -168,4 +168,14 @@ Unverified:
 - Existing repositories with verified container builds: 0 of 5.
 - Portfolio projects at MVP-verified status: 1 of 15.
 
+Portfolio website evidence:
+
+- ESLint: pass.
+- Strict TypeScript: pass.
+- Tests: 15 passed.
+- Production build: pass.
+- Desktop/mobile browser rendering: verified.
+- GitHub Pages workflow and deployment: pass.
+- Metadata, JSON-LD, sitemap, media, and privacy checks: pass.
+
 Existing pre-transformation repositories remain at zero automated tests and CI.

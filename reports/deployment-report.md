@@ -1,7 +1,8 @@
 # Deployment Report
 
 **Updated:** 2026-11-09
-**Current verified deployments:** Project 01 local Docker Compose environment
+**Current verified deployments:** Public portfolio on GitHub Pages; Project 01
+local Docker Compose environment
 
 ## Executive result
 
@@ -11,6 +12,17 @@ deployment record, container image, release, or live application URL. Project
 has not been remotely deployed.
 
 Docker, Docker Compose, and `kubectl` are available in the local environment. Terraform is not currently available on the command path. Tool availability alone is not deployment evidence.
+
+## Public portfolio deployment
+
+- URL: [santhoshreddy1999.github.io](https://santhoshreddy1999.github.io/)
+- Repository: `Santhoshreddy1999/Santhoshreddy1999.github.io`
+- Release: `v1.0.0`
+- Delivery: GitHub Pages through GitHub Actions.
+- Gates: ESLint, strict TypeScript, 15 Vitest/Testing Library tests, production
+  build, artifact upload, and Pages deployment.
+- Security/privacy: static site, no runtime API, no analytics, no secrets,
+  protected `main`, HTTPS enforced, phone/address omitted.
 
 ## Existing repositories
 
@@ -28,10 +40,10 @@ Docker, Docker Compose, and `kubectl` are available in the local environment. Te
 - Build artifact: none.
 - Live URL: none verified.
 
-### `MY_Skills`
+### `Santhoshreddy1999` profile repository
 
-- Deployment type: GitHub-rendered Markdown planned.
-- Remote update: not yet verified.
+- Deployment type: GitHub-rendered profile Markdown.
+- Remote update: verified.
 
 ### `Santhosh-projects`
 

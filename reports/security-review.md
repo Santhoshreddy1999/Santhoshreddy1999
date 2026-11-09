@@ -228,3 +228,18 @@ an independent post-commit review.
 ## Security claim policy
 
 A project may say “security considerations documented” when a threat model exists. It may say “security tested” only when the named automated or manual checks have run. It may not say “secure,” “enterprise-grade,” or “production-ready” solely because it uses authentication, containers, or a security framework.
+
+## Public portfolio website
+
+Verified on 2026-11-09:
+
+- Static deployment with no runtime API, authentication, analytics, or secret.
+- Content Security Policy, strict referrer policy, and HTTPS-enforced Pages.
+- External-link safety tests.
+- Public phone and residential address deliberately omitted.
+- Email and LinkedIn published from the supplied current resume.
+- Certificate title corrected to the independently verified Anthropic
+  “Introduction to Model Context Protocol.”
+- Resume conflicts and self-reported metrics documented in the repository's
+  content-integrity record.
+- Protected `main` and passing lint/type/test/build/deploy workflow.

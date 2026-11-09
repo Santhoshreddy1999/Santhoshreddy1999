@@ -4,7 +4,23 @@ I focus on AI applications, secure backend systems, modern web interfaces, and c
 
 This portfolio is being rebuilt in public with a strict rule: planned work is labeled planned, and projects are featured only after their builds and tests have been verified.
 
+[Live portfolio](https://santhoshreddy1999.github.io/) ·
+[LinkedIn](https://www.linkedin.com/in/santhosh-reddy-24a450188) ·
+[Email](mailto:a.santhoshreddy1999@gmail.com)
+
 ## Current focus
+
+### AI Full-Stack Engineering Portfolio — v1.0.0 deployed
+
+[santhoshreddy1999.github.io](https://santhoshreddy1999.github.io/) is a
+responsive React/TypeScript portfolio with an interactive architecture
+explorer, professional experience, privacy-sanitized resume, verified Anthropic
+MCP credential, project evidence, and a truthful released-versus-planned
+roadmap.
+
+Verified: lint, strict typecheck, 15 tests, production build, GitHub Pages
+deployment, protected `main`, and
+[v1.0.0](https://github.com/Santhoshreddy1999/Santhoshreddy1999.github.io/releases/tag/v1.0.0).
 
 ### Enterprise AI Knowledge Assistant — v0.1.0 MVP released
 
@@ -88,6 +104,7 @@ These are delivered in dependency order. Empty repositories are not used as prog
 - [Testing and quality report](reports/testing-and-quality-report.md)
 - [Security review](reports/security-review.md)
 - [Deployment report](reports/deployment-report.md)
+- [Live engineering portfolio](https://santhoshreddy1999.github.io/)
 
 ## Working principles
 
@@ -102,4 +119,7 @@ These are delivered in dependency order. Empty repositories are not used as prog
 
 The public account started this transformation with five repositories, five total commits, no automated tests, no CI, and no verified deployment. The baseline is documented so future progress remains genuine and reviewable.
 
-Professional contact links will be added only when an approved public channel is available. For now, project discussions can use the relevant GitHub repository.
+Professional contact:
+[LinkedIn](https://www.linkedin.com/in/santhosh-reddy-24a450188) ·
+[Email](mailto:a.santhoshreddy1999@gmail.com) ·
+[GitHub](https://github.com/Santhoshreddy1999)

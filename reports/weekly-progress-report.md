@@ -37,6 +37,14 @@
 - Protected `main` with six required checks, linear history, conversation
   resolution, and force-push/deletion prevention.
 - Published `v0.1.0` with verified release notes.
+- Built and deployed the root GitHub Pages portfolio at
+  `santhoshreddy1999.github.io`.
+- Integrated resume-sourced professional history, authentic headshot, public
+  email/LinkedIn, privacy-sanitized resume, and the independently verifiable
+  Anthropic Introduction to MCP certificate.
+- Passed website lint, strict typecheck, 15 tests, production build,
+  responsive browser rendering, metadata/privacy validation, and Pages CI.
+- Published portfolio release `v1.0.0` and protected its default branch.
 
 ## Verified findings
 

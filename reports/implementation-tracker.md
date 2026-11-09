@@ -55,7 +55,8 @@
 | Technology matrix | 2026-11-09 | 2026-11-09 | Complete | `technology-matrix.md` |
 | Repository standards and templates | 2026-11-09 | 2026-11-09 | Complete | `standards/`, issue forms, pull-request template, contribution and security policies |
 | GitHub profile README | 2026-11-09 | 2026-11-09 | Complete and published | `README.md` in `Santhoshreddy1999/Santhoshreddy1999` |
-| Authenticated GitHub update | 2026-11-09 | 2026-11-09 | Complete | Target account authenticated; profile and Project 01 repositories published |
+| Public portfolio website | 2026-11-09 | 2026-11-09 | v1.0.0 deployed | [santhoshreddy1999.github.io](https://santhoshreddy1999.github.io/) with passing Pages CI |
+| Authenticated GitHub update | 2026-11-09 | 2026-11-09 | Complete | Profile, Project 01, and root GitHub Pages repositories published |
 
 ## Resolved blocker
 
@@ -63,8 +64,8 @@ The pre-existing Windows credential authenticated a different corporate GitHub
 account, so remote writes were stopped. On 2026-11-09, the target
 `Santhoshreddy1999` account completed GitHub CLI browser authentication. The
 empty `MY_Skills` repository was renamed to the profile repository and pushed,
-and `enterprise-rag-assistant` was created and pushed. No credential was placed
-in source or documentation.
+`enterprise-rag-assistant` was created, and the root GitHub Pages portfolio was
+deployed. No credential was placed in source or documentation.
 
 ### External AI providers
 
